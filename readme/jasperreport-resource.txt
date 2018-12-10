@@ -1,0 +1,46 @@
+官网资料:
+user-guide: https://docs.tibco.com/pub/js-jrs/6.3.2/Jaspersoft-Studio-User-Guide.pdf
+
+官网教程总览
+https://community.jaspersoft.com/wiki/jasperreports-library-tutorial#Scriptlets
+
+官网Demo:
+https://community.jaspersoft.com/wiki/jasperreports-library-samples#Scriptlet_Sample
+
+官网Demo详细介绍:
+http://jasperreports.sourceforge.net/sample.reference.html
+
+中文教程: 
+https://www.tutorialspoint.com/jasper_reports/jasper_report_scriptlets.htm
+
+视频教程: 
+https://www.youtube.com/watch?v=t9Hv6DrwrhQ&t=6s&index=1&list=PLRran9THVx-n7egYAFaW7UdA7IiKvuvsZ
+
+
+FilterExpression用法:
+https://community.jaspersoft.com/questions/531005/how-use-filter-expressions-ireport
+ 
+ 
+如何在jasperreport自动生成序号:
+http://www.it610.com/article/1619720.htm
+ 
+jfreechart 学习
+http://blog.csdn.net/w420372197/article/details/7403685
+
+项目下载:
+http://download.csdn.net/download/w420372197/4180456#comment
+
+
+关于当前页码和总页码使用同一个TextField
+JFreeChart 实现各种数据统计图(柱形图，饼状图，折线图):
+http://blog.csdn.net/top_code/article/details/39519621
+
+关于Group组的使用:
+https://community.jaspersoft.com/wiki/groups
+
+
+普通目录解决方案:
+方案一:
+https://community.jaspersoft.com/questions/541300/table-contents-ireport
+方案二: 
+http://rolandtapken.de/blog/2013-04/jasperreports-append-report-toc-without-scriplets

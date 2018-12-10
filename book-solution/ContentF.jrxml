@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ContentF" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1d3dd4f9-6941-40ed-ae26-f0b0c25857d4">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="CHILD_REPORT_CONNECTION" class="java.sql.Connection"/>
+	<parameter name="CHILD_PARAMETER_MAP" class="java.util.Map"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="68" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="60" splitType="Stretch"/>
+	</pageHeader>
+	<detail>
+		<band height="53" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField bookmarkLevel="1">
+				<reportElement x="0" y="0" width="140" height="53" uuid="8c320266-ef38-45ae-883f-8c94d832b7e0"/>
+				<textFieldExpression><![CDATA["FirstChapter"]]></textFieldExpression>
+				<anchorNameExpression><![CDATA["FirstChapter"]]></anchorNameExpression>
+			</textField>
+		</band>
+		<band height="50">
+			<textField bookmarkLevel="2">
+				<reportElement x="0" y="0" width="100" height="50" uuid="e83cc2dc-e5e4-4f01-abc1-41720f6f0ce7"/>
+				<textFieldExpression><![CDATA["SecondChapter,FirstSegment"]]></textFieldExpression>
+				<anchorNameExpression><![CDATA["SecondChapter,FirstSegment"]]></anchorNameExpression>
+			</textField>
+		</band>
+		<band height="232">
+			<subreport>
+				<reportElement x="0" y="0" width="555" height="232" uuid="f11d9661-38da-41f6-9443-43b008a39056"/>
+				<parametersMapExpression><![CDATA[$P{CHILD_PARAMETER_MAP}]]></parametersMapExpression>
+				<connectionExpression><![CDATA[$P{CHILD_REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["book-solution/ContentC.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="50">
+			<textField bookmarkLevel="2">
+				<reportElement x="0" y="0" width="100" height="50" uuid="208fb10a-6699-4514-a59b-4686cd97153b"/>
+				<textFieldExpression><![CDATA["FirstChapter,SecondSegment"]]></textFieldExpression>
+				<anchorNameExpression><![CDATA["FirstChapter,SecondSegment"]]></anchorNameExpression>
+			</textField>
+		</band>
+		<band height="50">
+			<textField bookmarkLevel="2">
+				<reportElement x="0" y="0" width="100" height="50" uuid="9614545f-6c63-4914-b0a5-751728c27303"/>
+				<textFieldExpression><![CDATA["FirstChapter,SecondSegment,FirstParagraph"]]></textFieldExpression>
+				<anchorNameExpression><![CDATA["FirstChapter,SecondSegment,FirstParagraph"]]></anchorNameExpression>
+			</textField>
+		</band>
+		<band height="50">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="50" uuid="f650f23b-ebe2-442a-8fc5-568099aeb0c2"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["Detail-section not shown | Jaspersoft Community"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField evaluationTime="Master">
+				<reportElement x="0" y="0" width="555" height="54" uuid="4f625700-50d1-437d-afe9-e6b56ca563dd"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["Page " +( $V{MASTER_CURRENT_PAGE} -1) + " of " + ($V{MASTER_TOTAL_PAGES}-1)]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,1298 @@
+{
+    "allBands": [ ], 
+    "bottomMargin": 30, 
+    "columnCount": 1, 
+    "columnDirection": "LTR", 
+    "columnSpacing": 0, 
+    "columnWidth": 555, 
+    "datasetMap": { }, 
+    "datasets": [ ], 
+    "datasetsList": [ ], 
+    "detailSection": {
+        "bands": [ ], 
+        "bandsList": [ ], 
+        "origin": {
+            "bandTypeValue": "DETAIL"
+        }, 
+        "parts": [
+            {
+                "component": {
+                    "expression": {
+                        "chunks": [
+                            {
+                                "text": "\"ContentF.jasper\"", 
+                                "type": 1
+                            }
+                        ], 
+                        "id": 20, 
+                        "text": "\"ContentF.jasper\""
+                    }, 
+                    "parameters": [
+                        {
+                            "expression": {
+                                "chunks": [
+                                    {
+                                        "text": "new net.sf.jasperreports.engine.JREmptyDataSource(1)", 
+                                        "type": 1
+                                    }
+                                ], 
+                                "id": 17, 
+                                "text": "new net.sf.jasperreports.engine.JREmptyDataSource(1)"
+                            }, 
+                            "name": "REPORT_DATA_SOURCE"
+                        }, 
+                        {
+                            "expression": {
+                                "chunks": [
+                                    {
+                                        "text": "CHILD_REPORT_CONNECTION", 
+                                        "type": 2
+                                    }
+                                ], 
+                                "id": 18, 
+                                "text": "$P{CHILD_REPORT_CONNECTION}"
+                            }, 
+                            "name": "CHILD_REPORT_CONNECTION"
+                        }, 
+                        {
+                            "expression": {
+                                "chunks": [
+                                    {
+                                        "text": "CHILD_PARAMETER_MAP", 
+                                        "type": 2
+                                    }
+                                ], 
+                                "id": 19, 
+                                "text": "$P{CHILD_PARAMETER_MAP}"
+                            }, 
+                            "name": "CHILD_PARAMETER_MAP"
+                        }
+                    ], 
+                    "parametersMap": {
+                        "REPORT_DATA_SOURCE": {
+                            "$ref": "$.detailSection.parts[0].component.parameters[0]"
+                        }, 
+                        "CHILD_REPORT_CONNECTION": {
+                            "$ref": "$.detailSection.parts[0].component.parameters[1]"
+                        }, 
+                        "CHILD_PARAMETER_MAP": {
+                            "$ref": "$.detailSection.parts[0].component.parameters[2]"
+                        }
+                    }, 
+                    "returnValues": [ ], 
+                    "returnValuesList": [ ], 
+                    "usingCache": true
+                }, 
+                "componentKey": {
+                    "name": "subreportPart", 
+                    "namespace": "http://jasperreports.sourceforge.net/jasperreports/parts", 
+                    "namespacePrefix": "p"
+                }, 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "uUID": "2247bc6d-5ccd-4643-9908-f9a3d884ba41"
+            }
+        ], 
+        "partsList": [
+            {
+                "$ref": "$.detailSection.parts[0]"
+            }
+        ]
+    }, 
+    "expressions": [
+        {
+            "chunks": [
+                {
+                    "text": "java.sql.DriverManager.getConnection(\"jdbc:mysql://localhost/jasperreport_test?characterEncoding=utf-8\", \"root\", \"\")", 
+                    "type": 1
+                }
+            ], 
+            "id": 8, 
+            "text": "java.sql.DriverManager.getConnection(\"jdbc:mysql://localhost/jasperreport_test?characterEncoding=utf-8\", \"root\", \"\")", 
+            "valueClassName": "java.sql.Connection"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(1)", 
+                    "type": 1
+                }
+            ], 
+            "id": 0, 
+            "text": "new java.lang.Integer(1)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(1)", 
+                    "type": 1
+                }
+            ], 
+            "id": 1, 
+            "text": "new java.lang.Integer(1)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(1)", 
+                    "type": 1
+                }
+            ], 
+            "id": 2, 
+            "text": "new java.lang.Integer(1)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(0)", 
+                    "type": 1
+                }
+            ], 
+            "id": 3, 
+            "text": "new java.lang.Integer(0)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(1)", 
+                    "type": 1
+                }
+            ], 
+            "id": 4, 
+            "text": "new java.lang.Integer(1)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(0)", 
+                    "type": 1
+                }
+            ], 
+            "id": 5, 
+            "text": "new java.lang.Integer(0)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(1)", 
+                    "type": 1
+                }
+            ], 
+            "id": 6, 
+            "text": "new java.lang.Integer(1)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(0)", 
+                    "type": 1
+                }
+            ], 
+            "id": 7, 
+            "text": "new java.lang.Integer(0)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(1)", 
+                    "type": 1
+                }
+            ], 
+            "id": 15, 
+            "text": "new java.lang.Integer(1)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "new java.lang.Integer(0)", 
+                    "type": 1
+                }
+            ], 
+            "id": 16, 
+            "text": "new java.lang.Integer(0)"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "CHILD_PARAMETER_MAP", 
+                    "type": 2
+                }
+            ], 
+            "id": 9, 
+            "text": "$P{CHILD_PARAMETER_MAP}"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "BookTitle", 
+                    "type": 2
+                }
+            ], 
+            "id": 10, 
+            "text": "$P{BookTitle}"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "\"Book_cover.jasper\"", 
+                    "type": 1
+                }
+            ], 
+            "id": 11, 
+            "text": "\"Book_cover.jasper\""
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "REPORT_CONNECTION", 
+                    "type": 2
+                }
+            ], 
+            "id": 12, 
+            "text": "$P{REPORT_CONNECTION}"
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "\"Book_toc.jasper\"", 
+                    "type": 1
+                }
+            ], 
+            "id": 13, 
+            "text": "\"Book_toc.jasper\""
+        }, 
+        {
+            "chunks": [
+                {
+                    "text": "\"Book_backcover.jasper\"", 
+                    "type": 1
+                }
+            ], 
+            "id": 14, 
+            "text": "\"Book_backcover.jasper\""
+        }, 
+        {
+            "$ref": "$.detailSection.parts[0].component.parameters[0].expression"
+        }, 
+        {
+            "$ref": "$.detailSection.parts[0].component.parameters[1].expression"
+        }, 
+        {
+            "$ref": "$.detailSection.parts[0].component.parameters[2].expression"
+        }, 
+        {
+            "$ref": "$.detailSection.parts[0].component.expression"
+        }
+    ], 
+    "fields": [ ], 
+    "fieldsList": [ ], 
+    "fieldsMap": { }, 
+    "floatColumnFooter": false, 
+    "groups": [
+        {
+            "countVariable": {
+                "calculationValue": "COUNT", 
+                "expression": {
+                    "$ref": "$.expressions[9]"
+                }, 
+                "incrementTypeValue": "NONE", 
+                "initialValueExpression": {
+                    "$ref": "$.expressions[10]"
+                }, 
+                "name": "cover_COUNT", 
+                "resetGroup": {
+                    "$ref": ".."
+                }, 
+                "resetTypeValue": "GROUP", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            "footerPositionValue": "NORMAL", 
+            "groupFooterSection": {
+                "bands": [ ], 
+                "bandsList": [ ], 
+                "origin": {
+                    "bandTypeValue": "GROUP_FOOTER", 
+                    "groupName": "cover"
+                }, 
+                "parts": [
+                    {
+                        "component": {
+                            "expression": {
+                                "$ref": "$.expressions[16]"
+                            }, 
+                            "parameters": [ ], 
+                            "parametersMap": { }, 
+                            "returnValues": [ ], 
+                            "returnValuesList": [ ]
+                        }, 
+                        "componentKey": {
+                            "name": "subreportPart", 
+                            "namespace": "http://jasperreports.sourceforge.net/jasperreports/parts", 
+                            "namespacePrefix": "p"
+                        }, 
+                        "propertiesMap": {
+                            "empty": true, 
+                            "ownPropertyNames": [ ], 
+                            "propertyNames": [ ]
+                        }, 
+                        "uUID": "88decbbe-63ad-45cc-9e03-5dadc50004d5"
+                    }
+                ], 
+                "partsList": [
+                    {
+                        "$ref": "$.groups[0].groupFooterSection.parts[0]"
+                    }
+                ]
+            }, 
+            "groupHeaderSection": {
+                "bands": [ ], 
+                "bandsList": [ ], 
+                "origin": {
+                    "bandTypeValue": "GROUP_HEADER", 
+                    "groupName": "cover"
+                }, 
+                "parts": [
+                    {
+                        "component": {
+                            "expression": {
+                                "$ref": "$.expressions[13]"
+                            }, 
+                            "parameters": [
+                                {
+                                    "expression": {
+                                        "$ref": "$.expressions[12]"
+                                    }, 
+                                    "name": "BookTitle"
+                                }
+                            ], 
+                            "parametersMap": {
+                                "BookTitle": {
+                                    "$ref": "$.groups[0].groupHeaderSection.parts[0].component.parameters[0]"
+                                }
+                            }, 
+                            "parametersMapExpression": {
+                                "$ref": "$.expressions[11]"
+                            }, 
+                            "returnValues": [ ], 
+                            "returnValuesList": [ ]
+                        }, 
+                        "componentKey": {
+                            "name": "subreportPart", 
+                            "namespace": "http://jasperreports.sourceforge.net/jasperreports/parts", 
+                            "namespacePrefix": "p"
+                        }, 
+                        "propertiesMap": {
+                            "empty": true, 
+                            "ownPropertyNames": [ ], 
+                            "propertyNames": [ ]
+                        }, 
+                        "uUID": "7aed05b9-1301-4a53-b47e-34289560bc0c"
+                    }, 
+                    {
+                        "component": {
+                            "expression": {
+                                "$ref": "$.expressions[15]"
+                            }, 
+                            "parameters": [
+                                {
+                                    "expression": {
+                                        "$ref": "$.expressions[14]"
+                                    }, 
+                                    "name": "REPORT_CONNECTION"
+                                }
+                            ], 
+                            "parametersMap": {
+                                "REPORT_CONNECTION": {
+                                    "$ref": "$.groups[0].groupHeaderSection.parts[1].component.parameters[0]"
+                                }
+                            }, 
+                            "returnValues": [ ], 
+                            "returnValuesList": [ ]
+                        }, 
+                        "componentKey": {
+                            "name": "subreportPart", 
+                            "namespace": "http://jasperreports.sourceforge.net/jasperreports/parts", 
+                            "namespacePrefix": "p"
+                        }, 
+                        "evaluationTime": {
+                            "evaluationTimeType": "REPORT"
+                        }, 
+                        "propertiesMap": {
+                            "empty": false, 
+                            "ownPropertyNames": [
+                                "net.sf.jasperreports.bookmarks.data.source.parameter"
+                            ], 
+                            "propertyNames": [
+                                "net.sf.jasperreports.bookmarks.data.source.parameter"
+                            ]
+                        }, 
+                        "uUID": "56ab525c-754f-4f48-a52c-7cc23934be3d"
+                    }
+                ], 
+                "partsList": [
+                    {
+                        "$ref": "$.groups[0].groupHeaderSection.parts[0]"
+                    }, 
+                    {
+                        "$ref": "$.groups[0].groupHeaderSection.parts[1]"
+                    }
+                ]
+            }, 
+            "keepTogether": false, 
+            "minDetailsToStartFromTop": 0, 
+            "minHeightToStartNewPage": 0, 
+            "name": "cover", 
+            "preventOrphanFooter": false, 
+            "reprintHeaderOnEachPage": false, 
+            "resetPageNumber": false, 
+            "startNewColumn": false, 
+            "startNewPage": false
+        }
+    ], 
+    "groupsList": [
+        {
+            "$ref": "$.groups[0]"
+        }
+    ], 
+    "groupsMap": {
+        "cover": {
+            "$ref": "$.groups[0]"
+        }
+    }, 
+    "ignorePagination": false, 
+    "language": "java", 
+    "leftMargin": 20, 
+    "mainDataset": {
+        "fields": [ ], 
+        "fieldsList": [ ], 
+        "fieldsMap": {
+            "$ref": "$.fieldsMap"
+        }, 
+        "groups": [
+            {
+                "$ref": "$.groups[0]"
+            }
+        ], 
+        "groupsList": [
+            {
+                "$ref": "$.groups[0]"
+            }
+        ], 
+        "groupsMap": {
+            "$ref": "$.groupsMap"
+        }, 
+        "mainDataset": true, 
+        "name": "Book", 
+        "parameters": [
+            {
+                "forPrompting": true, 
+                "name": "REPORT_CONTEXT", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.ReportContext"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_PARAMETERS_MAP", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.util.Map"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "JASPER_REPORTS_CONTEXT", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.JasperReportsContext"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "JASPER_REPORT", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.JasperReport"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_CONNECTION", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.sql.Connection"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_MAX_COUNT", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_DATA_SOURCE", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.JRDataSource"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_SCRIPTLET", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.JRAbstractScriptlet"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_LOCALE", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.util.Locale"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_RESOURCE_BUNDLE", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.util.ResourceBundle"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_TIME_ZONE", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.util.TimeZone"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_FORMAT_FACTORY", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.util.FormatFactory"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_CLASS_LOADER", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.ClassLoader"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_URL_HANDLER_FACTORY", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.net.URLStreamHandlerFactory"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_FILE_RESOLVER", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.util.FileResolver"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_TEMPLATES", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.util.Collection"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "SORT_FIELDS", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.util.List"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "FILTER", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.DatasetFilter"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "REPORT_VIRTUALIZER", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "net.sf.jasperreports.engine.JRVirtualizer"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "IS_IGNORE_PAGINATION", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Boolean"
+            }, 
+            {
+                "description": "", 
+                "forPrompting": true, 
+                "name": "CHILD_PARAMETER_MAP", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": false, 
+                "valueClassName": "java.util.Map"
+            }, 
+            {
+                "defaultValueExpression": {
+                    "$ref": "$.expressions[0]"
+                }, 
+                "forPrompting": true, 
+                "name": "CHILD_REPORT_CONNECTION", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": false, 
+                "valueClassName": "java.sql.Connection"
+            }, 
+            {
+                "forPrompting": true, 
+                "name": "BookTitle", 
+                "propertiesMap": {
+                    "empty": true, 
+                    "ownPropertyNames": [ ], 
+                    "propertyNames": [ ]
+                }, 
+                "systemDefined": false, 
+                "valueClassName": "java.lang.String"
+            }
+        ], 
+        "parametersList": [
+            {
+                "$ref": "$.mainDataset.parameters[0]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[1]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[2]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[3]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[4]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[5]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[6]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[7]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[8]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[9]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[10]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[11]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[12]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[13]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[14]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[15]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[16]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[17]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[18]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[19]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[20]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[21]"
+            }, 
+            {
+                "$ref": "$.mainDataset.parameters[22]"
+            }
+        ], 
+        "parametersMap": {
+            "REPORT_LOCALE": {
+                "$ref": "$.mainDataset.parameters[8]"
+            }, 
+            "JASPER_REPORT": {
+                "$ref": "$.mainDataset.parameters[3]"
+            }, 
+            "REPORT_VIRTUALIZER": {
+                "$ref": "$.mainDataset.parameters[18]"
+            }, 
+            "REPORT_TIME_ZONE": {
+                "$ref": "$.mainDataset.parameters[10]"
+            }, 
+            "SORT_FIELDS": {
+                "$ref": "$.mainDataset.parameters[16]"
+            }, 
+            "REPORT_FILE_RESOLVER": {
+                "$ref": "$.mainDataset.parameters[14]"
+            }, 
+            "REPORT_SCRIPTLET": {
+                "$ref": "$.mainDataset.parameters[7]"
+            }, 
+            "REPORT_PARAMETERS_MAP": {
+                "$ref": "$.mainDataset.parameters[1]"
+            }, 
+            "REPORT_CONNECTION": {
+                "$ref": "$.mainDataset.parameters[4]"
+            }, 
+            "REPORT_CONTEXT": {
+                "$ref": "$.mainDataset.parameters[0]"
+            }, 
+            "REPORT_CLASS_LOADER": {
+                "$ref": "$.mainDataset.parameters[12]"
+            }, 
+            "REPORT_URL_HANDLER_FACTORY": {
+                "$ref": "$.mainDataset.parameters[13]"
+            }, 
+            "REPORT_DATA_SOURCE": {
+                "$ref": "$.mainDataset.parameters[6]"
+            }, 
+            "IS_IGNORE_PAGINATION": {
+                "$ref": "$.mainDataset.parameters[19]"
+            }, 
+            "FILTER": {
+                "$ref": "$.mainDataset.parameters[17]"
+            }, 
+            "JASPER_REPORTS_CONTEXT": {
+                "$ref": "$.mainDataset.parameters[2]"
+            }, 
+            "BookTitle": {
+                "$ref": "$.mainDataset.parameters[22]"
+            }, 
+            "CHILD_REPORT_CONNECTION": {
+                "$ref": "$.mainDataset.parameters[21]"
+            }, 
+            "CHILD_PARAMETER_MAP": {
+                "$ref": "$.mainDataset.parameters[20]"
+            }, 
+            "REPORT_FORMAT_FACTORY": {
+                "$ref": "$.mainDataset.parameters[11]"
+            }, 
+            "REPORT_MAX_COUNT": {
+                "$ref": "$.mainDataset.parameters[5]"
+            }, 
+            "REPORT_TEMPLATES": {
+                "$ref": "$.mainDataset.parameters[15]"
+            }, 
+            "REPORT_RESOURCE_BUNDLE": {
+                "$ref": "$.mainDataset.parameters[9]"
+            }
+        }, 
+        "propertiesMap": {
+            "empty": false, 
+            "ownPropertyNames": [
+                "com.jaspersoft.studio.data.defaultdataadapter", 
+                "net.sf.jasperreports.print.create.bookmarks", 
+                "com.jaspersoft.studio.book.group.cover.header", 
+                "com.jaspersoft.studio.book.group.cover.footer"
+            ], 
+            "propertyNames": [
+                "com.jaspersoft.studio.data.defaultdataadapter", 
+                "net.sf.jasperreports.print.create.bookmarks", 
+                "com.jaspersoft.studio.book.group.cover.header", 
+                "com.jaspersoft.studio.book.group.cover.footer"
+            ]
+        }, 
+        "propertyExpressionsList": [ ], 
+        "query": {
+            "language": "sql", 
+            "text": ""
+        }, 
+        "scriptlets": [ ], 
+        "scriptletsList": [ ], 
+        "scriptletsMap": { }, 
+        "sortFields": [ ], 
+        "sortFieldsList": [ ], 
+        "sortFieldsMap": { }, 
+        "uUID": "d2716064-8ae4-40cf-a575-33afba400e3a", 
+        "variables": [
+            {
+                "calculationValue": "SYSTEM", 
+                "incrementTypeValue": "NONE", 
+                "initialValueExpression": {
+                    "$ref": "$.expressions[1]"
+                }, 
+                "name": "PAGE_NUMBER", 
+                "resetTypeValue": "REPORT", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "calculationValue": "SYSTEM", 
+                "incrementTypeValue": "NONE", 
+                "name": "MASTER_CURRENT_PAGE", 
+                "resetTypeValue": "REPORT", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "calculationValue": "SYSTEM", 
+                "incrementTypeValue": "NONE", 
+                "name": "MASTER_TOTAL_PAGES", 
+                "resetTypeValue": "REPORT", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "calculationValue": "SYSTEM", 
+                "incrementTypeValue": "NONE", 
+                "initialValueExpression": {
+                    "$ref": "$.expressions[2]"
+                }, 
+                "name": "COLUMN_NUMBER", 
+                "resetTypeValue": "PAGE", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "calculationValue": "COUNT", 
+                "expression": {
+                    "$ref": "$.expressions[3]"
+                }, 
+                "incrementTypeValue": "NONE", 
+                "initialValueExpression": {
+                    "$ref": "$.expressions[4]"
+                }, 
+                "name": "REPORT_COUNT", 
+                "resetTypeValue": "REPORT", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "calculationValue": "COUNT", 
+                "expression": {
+                    "$ref": "$.expressions[5]"
+                }, 
+                "incrementTypeValue": "NONE", 
+                "initialValueExpression": {
+                    "$ref": "$.expressions[6]"
+                }, 
+                "name": "PAGE_COUNT", 
+                "resetTypeValue": "PAGE", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "calculationValue": "COUNT", 
+                "expression": {
+                    "$ref": "$.expressions[7]"
+                }, 
+                "incrementTypeValue": "NONE", 
+                "initialValueExpression": {
+                    "$ref": "$.expressions[8]"
+                }, 
+                "name": "COLUMN_COUNT", 
+                "resetTypeValue": "COLUMN", 
+                "systemDefined": true, 
+                "valueClassName": "java.lang.Integer"
+            }, 
+            {
+                "$ref": "$.groups[0].countVariable"
+            }
+        ], 
+        "variablesList": [
+            {
+                "$ref": "$.mainDataset.variables[0]"
+            }, 
+            {
+                "$ref": "$.mainDataset.variables[1]"
+            }, 
+            {
+                "$ref": "$.mainDataset.variables[2]"
+            }, 
+            {
+                "$ref": "$.mainDataset.variables[3]"
+            }, 
+            {
+                "$ref": "$.mainDataset.variables[4]"
+            }, 
+            {
+                "$ref": "$.mainDataset.variables[5]"
+            }, 
+            {
+                "$ref": "$.mainDataset.variables[6]"
+            }, 
+            {
+                "$ref": "$.groups[0].countVariable"
+            }
+        ], 
+        "variablesMap": {
+            "COLUMN_COUNT": {
+                "$ref": "$.mainDataset.variables[6]"
+            }, 
+            "COLUMN_NUMBER": {
+                "$ref": "$.mainDataset.variables[3]"
+            }, 
+            "MASTER_CURRENT_PAGE": {
+                "$ref": "$.mainDataset.variables[1]"
+            }, 
+            "REPORT_COUNT": {
+                "$ref": "$.mainDataset.variables[4]"
+            }, 
+            "MASTER_TOTAL_PAGES": {
+                "$ref": "$.mainDataset.variables[2]"
+            }, 
+            "PAGE_NUMBER": {
+                "$ref": "$.mainDataset.variables[0]"
+            }, 
+            "cover_COUNT": {
+                "$ref": "$.groups[0].countVariable"
+            }, 
+            "PAGE_COUNT": {
+                "$ref": "$.mainDataset.variables[5]"
+            }
+        }, 
+        "whenResourceMissingTypeValue": "NULL"
+    }, 
+    "mainDesignDataset": {
+        "$ref": "$.mainDataset"
+    }, 
+    "name": "Book", 
+    "orientationValue": "PORTRAIT", 
+    "pageHeight": 842, 
+    "pageWidth": 595, 
+    "parameters": [
+        {
+            "$ref": "$.mainDataset.parameters[0]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[1]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[2]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[3]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[4]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[5]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[6]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[7]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[8]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[9]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[10]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[11]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[12]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[13]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[14]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[15]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[16]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[17]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[18]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[19]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[20]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[21]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[22]"
+        }
+    ], 
+    "parametersList": [
+        {
+            "$ref": "$.mainDataset.parameters[0]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[1]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[2]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[3]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[4]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[5]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[6]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[7]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[8]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[9]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[10]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[11]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[12]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[13]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[14]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[15]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[16]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[17]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[18]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[19]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[20]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[21]"
+        }, 
+        {
+            "$ref": "$.mainDataset.parameters[22]"
+        }
+    ], 
+    "parametersMap": {
+        "$ref": "$.mainDataset.parametersMap"
+    }, 
+    "printOrderValue": "VERTICAL", 
+    "propertiesMap": {
+        "$ref": "$.mainDataset.propertiesMap"
+    }, 
+    "propertyExpressionsList": [ ], 
+    "propertyNames": [
+        "com.jaspersoft.studio.data.defaultdataadapter", 
+        "net.sf.jasperreports.print.create.bookmarks", 
+        "com.jaspersoft.studio.book.group.cover.header", 
+        "com.jaspersoft.studio.book.group.cover.footer"
+    ], 
+    "query": {
+        "$ref": "$.mainDataset.query"
+    }, 
+    "rightMargin": 20, 
+    "scriptlets": [ ], 
+    "scriptletsList": [ ], 
+    "scriptletsMap": {
+        "$ref": "$.mainDataset.scriptletsMap"
+    }, 
+    "sectionType": "PART", 
+    "sortFields": [ ], 
+    "sortFieldsList": [ ], 
+    "styles": [ ], 
+    "stylesList": [ ], 
+    "stylesMap": { }, 
+    "summaryNewPage": false, 
+    "summaryWithPageHeaderAndFooter": false, 
+    "templates": [ ], 
+    "templatesList": [ ], 
+    "titleNewPage": false, 
+    "topMargin": 30, 
+    "uUID": "d2716064-8ae4-40cf-a575-33afba400e3a", 
+    "variables": [
+        {
+            "$ref": "$.mainDataset.variables[0]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[1]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[2]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[3]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[4]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[5]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[6]"
+        }, 
+        {
+            "$ref": "$.groups[0].countVariable"
+        }
+    ], 
+    "variablesList": [
+        {
+            "$ref": "$.mainDataset.variables[0]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[1]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[2]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[3]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[4]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[5]"
+        }, 
+        {
+            "$ref": "$.mainDataset.variables[6]"
+        }, 
+        {
+            "$ref": "$.groups[0].countVariable"
+        }
+    ], 
+    "variablesMap": {
+        "$ref": "$.mainDataset.variablesMap"
+    }, 
+    "whenResourceMissingTypeValue": "NULL"
+}

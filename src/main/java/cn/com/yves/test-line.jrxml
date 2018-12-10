@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="test-line" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="86cdc876-426f-408e-b805-2e860838fe8c">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<summary>
+		<band height="168" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="48" width="555" height="1" uuid="d15abc74-7efb-4f06-8ee1-eb024c4390d5"/>
+				<graphicElement>
+					<pen lineWidth="20.0"/>
+				</graphicElement>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

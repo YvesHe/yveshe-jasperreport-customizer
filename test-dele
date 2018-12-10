@@ -1,0 +1,19 @@
+CategoryPlot
+    CombinedDomainCategoryPlot
+    CombinedRangeCategoryPlot
+CompassPlot
+ContourPlot
+DialPlot
+FastScatterPlot
+MeterPlot
+MultiplePiePlot
+PiePlot
+    PiePlot3D
+    RingPlot
+PolarPlot  
+SpiderWebPlot
+ThermometerPlot
+WaferMapPlot
+XYPlot 
+    CombinedDomainXYPlot 
+    CombinedRangeXYPlot
